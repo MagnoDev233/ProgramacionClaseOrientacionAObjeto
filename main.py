@@ -2,12 +2,19 @@ print ("Halo evryguan, jawa iu fain thenkiu")
 
 
 def son_anargamas(a: str, b: str) -> bool:
- a_lower = a.lower()
- b_lower = b.lower()
+    a_min=a.lower()
+    b_min=b.lower()
+    
+    temp_a=[]
+    for ch in a_min:
+        if not ch.isspace():
+            temp_a.append(ch)
+    a="".join(temp_a)
  
- a_clean = "".join(a_lower.split())
- b_clean = "".join(b_lower.split())
+    temp_b=[]
+    for ch in b_min:
+        if not ch.isspace():
+            temp_b.append(ch)
+    b="".join(temp_b)
  
- if len(a_clean) == len(b_clean):
-     return False
- return sorted(a_clean) == sorted(b_clean)
+son_anargamas("Amor","Roma")
