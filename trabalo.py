@@ -1,4 +1,3 @@
-
     app = Veterinaria()
     app.registrar_mascota("Fido", "Perro", 5)
     app.registrar_mascota("Misu", "Gato", 2)
