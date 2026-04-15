@@ -1,1 +1,0 @@
-print ("Halo evryguan, jawa iu fain thenkiu")
